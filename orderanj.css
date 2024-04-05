@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #64b5f6, #ffffff);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure the container fills the viewport */
+}
+
+.food-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 90%; /* Adjusted width to fit the screen */
+    max-width: 800px; /* Added max-width to prevent excessive stretching */
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap; /* Ensure options wrap if exceeding container width */
+    justify-content: space-between; /* Add space between options */
+}
+
+.option {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px; /* Add margin between options */
+    width: calc(33.33% - 20px); /* Adjusted width for 3 options per row with spacing */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.option-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option-inner img {
+    width: 100%; /* Resize all images to fill their container */
+    height: 150px; /* Set a fixed height for all images */
+    object-fit: cover; /* Ensure images cover the container */
+    border-radius: 5px; /* Add border radius to images */
+    margin-bottom: 10px; /* Add space below each image */
+}
+
+input[type="number"] {
+    width: 100%; /* Make the quantity input box fill the container */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#proceed-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
