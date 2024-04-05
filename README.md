@@ -16,7 +16,7 @@ Breif Idea in two three sentences
 Share A Plate
 
 
-Our app addresses food wastage by connecting canteens and hostels with old age homes and orphanages for surplus food redistribution.Canteens and hostels can post excess food availability , while orphanages and old age homes can request donations based on their needs.
+Our app addresses food wastage by connecting canteens and hostels with old age homes and orphanages for surplus food redistribution.Canteens and hostels can post excess food availability , while orphanages and old age homes can request donations based on their needs.Throgh real 
 
 ## Features 
 1. 
