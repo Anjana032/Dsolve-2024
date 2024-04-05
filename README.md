@@ -4,15 +4,19 @@
 
 
 ## Team Name
-Name  
+Name  Yahoo
 
 # Team Member
-Member 1 Github Link
+Member 1 Github Link https://github.com/Meenu7222
 
-MEmber 2 Github Link
+MEmber 2 Github Link https://github.com/Anjana032
 
 ## Idea
-Breif Idea in two three sentences 
+Breif Idea in two three sentences
+Share A Plate
+
+
+Our app addresses food wastage by connecting canteens and hostels with old age homes and orphanages for surplus food redistribution.Canteens and hostels can post excess food availability , while orphanages and old age homes can request donations based on their needs.
 
 ## Features 
 1. 
