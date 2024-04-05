@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Food Details</title>
+    <link rel="stylesheet" href="donor2.css">
+</head>
+<body>
+    <div class="add-food-button" onclick="openDialog()">Add Food Details</div>
+
+    <div id="dialog" class="dialog">
+        <form id="foodForm" onsubmit="addFoodItem(); return false;">
+            <label for="foodItem">Enter Food Item:</label><br>
+            <input type="text" id="foodItem" name="foodItem" required><br>
+            <label for="quantity">Enter Quantity:</label><br>
+            <input type="number" id="quantity" name="quantity" required><br>
+            <button type="submit">Add</button>
+        </form>
+    </div>
+
+    <div id="foodItems" class="food-items">
+        <!-- Food items will be added here dynamically -->
+    </div>
+
+    <script src="donor2.js"></script>
+</body>
+</html>
