@@ -20,14 +20,18 @@ Our app addresses food wastage by connecting canteens and hostels with old age h
 Our app addresses food wastage by connecting canteens and hostels with old age homes and orphanages for surplus food redistribution.Canteens and hostels can post excess food availability , while orphanages and old age homes can request donations based on their needs.
 
 ## Features 
-1. 
+1. Special Userid and Password For Donor authorized by admin.
+2. Separate interfaces for recipient and Donor.
 
 ## Link to product walkthrough
 [link to video](Link Here)
-
+https://drive.google.com/file/d/1ntgRWo0PfSXiEuUOxQodGxLTJjPqnWMj/view?usp=drive_link
    
 ## Libraries used
 Library Name - Version
+npm 18.7.1
+Mongoose
+express
 
 
 ## How to configure
